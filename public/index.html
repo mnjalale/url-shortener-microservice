@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL Shortener</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="/public/css/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>URL Shortener</h1>
+            <h3>How to use it:</h3>
+            <blockquote>
+                <ol>
+                    <li>Pass a URL as a parameter and you will receive a shortened URL in the JSON response</li>
+                    <li>If you pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead</li>
+                </ol>
+            </blockquote>
+            <h3>Example creation usage:</h3>
+            <a id="example1" href="" target="_blank"></a>
+            <br/>
+            <a id="example2" href="" target="_blank"></a>
+            <h3>Example creation output:</h3>
+            <span id="exampleOutput"></span>
+            <h3>Usage:</h3>
+            <a id="newURL"></a>
+            <h3>Will redirect to:</h3>
+            <a id="oldURL"></a>
+        </div>
+        <script type="text/javascript" src="/common/ajax-functions.js"></script>
+        <script type="text/javascript" src="/controllers/client/indexController.js"></script>
+    </body>
+</html>
