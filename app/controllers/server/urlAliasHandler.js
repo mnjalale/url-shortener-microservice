@@ -24,7 +24,7 @@ function UrlAliasHandler(){
     };
     
     this.saveUrlAlias = function(req,res){
-        var url = req.params.url;
+        var url = req.params[0];
         var origin = UrlModule.format({
             protocol: req.protocol,
             host: req.get('host')

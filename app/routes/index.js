@@ -10,7 +10,7 @@ module.exports = function(app){
             res.sendFile(path+ '/public/index.html');
         });
         
-    app.route('/new/:url')
+    app.route('/new/*')
         .get(urlAliasHandler.saveUrlAlias);
    
     app.route('/:shortenerCode')
