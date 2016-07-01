@@ -13,10 +13,10 @@
     example2.innerHTML = appUrl + '/new/https://www.yahoo.com';
     example2.href = appUrl + '/new/https://www.yahoo.com';
     
-    exampleOutput.innerHTML = '{ "original_url" : "https://www.google.com", "short_url" : appUrl + "/5" }';
+    exampleOutput.innerHTML = '{ "original_url" : "https://www.google.com", "short_url" : appUrl + "/Y4jt" }';
     
-    newURL.innerHTML=appUrl + '/5';
-    newURL.href=appUrl + '/5';
+    newURL.innerHTML=appUrl + '/Y4jt';
+    newURL.href=appUrl + '/Y4jt';
     oldURL.innerHTML="https://www.google.com";
     oldURL.href="https://www.google.com";
 })();
